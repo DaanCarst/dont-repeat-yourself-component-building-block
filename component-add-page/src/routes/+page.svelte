@@ -1,2 +1,8 @@
-<h1>Add website link component</h1>
+<script>
+    import Heading from '$lib/header.svelte'
+</script>
+
+<body>
+    <Heading />
+</body>
 
