@@ -1,6 +1,6 @@
 <script>
     import '../global.css';
-    import header from '$lib/header.svelte';
+    import header from '$lib/Add.svelte';
 </script>
 
 <header {header} />

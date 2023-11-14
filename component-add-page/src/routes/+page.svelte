@@ -1,8 +1,8 @@
 <script>
-    import Heading from '$lib/header.svelte'
+    import Add from '$lib/Add.svelte'
 </script>
 
 <body>
-    <Heading />
+    <Add />
 </body>
 
