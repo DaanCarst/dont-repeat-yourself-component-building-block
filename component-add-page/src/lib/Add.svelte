@@ -25,6 +25,7 @@
     }
 
     .tip-container, .form-container {
+        
         background-color: var(--c-container);
         margin: .5em;
         border-radius: 5px;
@@ -33,6 +34,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         padding: 1.2em;
+
     }
 
     .form-container {

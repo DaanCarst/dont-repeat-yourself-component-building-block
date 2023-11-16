@@ -1,3 +1,4 @@
+
 <section class="content-container">
     <section class="tip-container">
         <p class="tip">Tip</p>
@@ -6,12 +7,12 @@
 
     <section class="form-container">
         <p>Voeg een pagina titel toe</p>
-        <input type="text">
+        <input type="text" placeholder="Titel van pagina..."><br>
 
         <p>Voeg een Partner URL toe</p>
-        <input type="text">
+        <input type="text" placeholder="Link naar pagina..."><br>
 
-        <button>Project Toevoegen</button>
+        <button class="add-button">Project Toevoegen</button>
     </section>
 </section>
 
@@ -44,4 +45,30 @@
         color: var(--c-orange);
         line-height: 1.5em;
     }
+
+    .add-button {
+        border: none;
+        background-color: var(--c-modal-button);
+        color: white;
+        padding: .7em;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 4px;
+    }
+
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+
+    .add-button:hover {
+        opacity: 0.75;
+    }
+
 </style>
