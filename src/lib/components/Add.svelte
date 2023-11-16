@@ -22,7 +22,6 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
-
     }
 
     .tip-container, .form-container {
@@ -37,8 +36,8 @@
     }
 
     .form-container {
-        width: 100%;
         line-height: 2em;
+        width: 100%;
     }
 
     .tip {
@@ -57,7 +56,7 @@
         border-radius: 4px;
     }
 
-    input[type=text], select {
+    input[type=text] {
         width: 100%;
         padding: 12px 20px;
         display: inline-block;
@@ -73,10 +72,7 @@
 
     @media (max-width: 850px) {
         .content-container {
-            flex-direction: column;
-        }
-        .form-container {
-            width: 90%;
+            flex-wrap: wrap;
         }
     }   
 
