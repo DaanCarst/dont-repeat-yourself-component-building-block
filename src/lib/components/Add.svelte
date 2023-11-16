@@ -1,9 +1,9 @@
 
 <section class="content-container">
-    <section class="tip-container">
+    <article class="tip-container">
         <p class="tip">Tip</p>
         <p>Voeg een bestaande url toe van de website van een partner!</p>
-    </section>
+    </article>
 
     <section class="form-container">
         <p>Voeg een pagina titel toe</p>
@@ -24,7 +24,7 @@
         align-items: flex-start;
     }
 
-    .tip-container, .form-container {
+    article, .form-container {
         background-color: var(--c-container);
         margin: .5em;
         border-radius: 4px;
