@@ -18,17 +18,17 @@
 
 <style>
 	.content-container {
-        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
+
     }
 
     .tip-container, .form-container {
         background-color: var(--c-container);
         margin: .5em;
-        border-radius: 5px;
+        border-radius: 4px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -60,15 +60,24 @@
     input[type=text], select {
         width: 100%;
         padding: 12px 20px;
-        margin: 8px 0;
         display: inline-block;
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
-}
+        max-width: 700px;
+    }
 
     .add-button:hover {
         opacity: 0.75;
     }
+
+    @media (max-width: 850px) {
+        .content-container {
+            flex-direction: column;
+        }
+        .form-container {
+            width: 90%;
+        }
+    }   
 
 </style>
